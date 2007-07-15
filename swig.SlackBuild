@@ -33,8 +33,10 @@ make DESTDIR=$PKG install
 
 mkdir -p $PKG/install
 install -m 644 $CWD/slack-desc     $PKG/install
+install -m 644 $CWD/slack-suggests $PKG/install
 mkdir -p $PKG/usr/src/slackbuilds/$NAME-$VERSION
 install -m 644 $CWD/slack-desc       $PKG/usr/src/slackbuilds/$NAME-$VERSION
+install -m 644 $CWD/slack-suggests   $PKG/usr/src/slackbuilds/$NAME-$VERSION
 install -m 644 $CWD/$NAME.SlackBuild $PKG/usr/src/slackbuilds/$NAME-$VERSION
 
 cd $PKG
