@@ -1,0 +1,9 @@
+guile >= 1.8
+jdk >= 6u1
+lua >= 5.1
+perl >= 5.8
+php >= 5.2
+python >= 2.5
+rubby >= 1.8.6
+tcl >= 8.4
+xorg >= 1.3
