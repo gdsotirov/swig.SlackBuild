@@ -1,6 +1,8 @@
-guile >= 1.8
-jdk >= 6u1
+guile >= 1.8.4
+octave >= 3.0.3
+jdk >= 6u6
 lua >= 5.1
+ocaml >= 3.10
 perl >= 5.8
 php >= 5.2
 python >= 2.5
