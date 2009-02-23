@@ -7,7 +7,7 @@
 . ../slack-package.conf
 
 NAME=swig
-VERSION=1.3.36
+VERSION=1.3.38
 BUILD=1
 
 cd $TMP
@@ -19,16 +19,18 @@ fix_source
 CFLAGS=$SLKCFLAGS \
 CXXFLAGS=$SLKCFLAGS \
 ./configure --build=$ARCH-slackware-linux \
-            --prefix=/usr
+            --prefix=/usr \
+            --mandir=/usr/man || exit 1
 
-make -j4 || exit 1
+make -j4 || exit 2
 
 PKG="$TMP/package-$NAME"
 mkdir -p $PKG
 
-make DESTDIR=$PKG install || exit 2
+make DESTDIR=$PKG install || exit 3
 
 ( cd $PKG; strip_bin; strip_lib )
+gzip_man $PKG
 ( cd $SRC; create_docs $PKG $NAME-$VERSION )
 
 mkdir -p $PKG/install
