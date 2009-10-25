@@ -1,10 +1,11 @@
-guile >= 1.8.5
-octave >= 3.0.3
-jdk >= 6u6
+guile >= 1.8.7
+octave >= 3.2.3
+jdk >= 6u16
 lua >= 5.1
+mono >= 2.4.2
 ocaml >= 3.10
 perl >= 5.10
-php >= 5.2.8
-python >= 2.5.2
+php >= 5.2.10
+python >= 2.6
 rubby >= 1.8.7
-tcl >= 8.5
+tcl >= 8.5.7
