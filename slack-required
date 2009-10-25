@@ -1,4 +1,4 @@
-cxxlibs >= 6.0.9 | gcc-g++ >= 4.2.4
-gcc >= 4.2.4
-glibc-solibs >= 2.7
+cxxlibs >= 6.0.10 | gcc-g++ >= 4.3.3
+gcc >= 4.3.3
+glibc-solibs >= 2.9
 zlib >= 1.2.3
