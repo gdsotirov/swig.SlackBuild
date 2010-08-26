@@ -1,11 +1,11 @@
 guile >= 1.8.7
 octave >= 3.2.3
-jdk >= 6u16
-lua >= 5.1
+jdk >= 6u20
+lua >= 5.1.4
 mono >= 2.4.2
-ocaml >= 3.10
+ocaml >= 3.12
 perl >= 5.10
-php >= 5.2.10
+php >= 5.2.13
 python >= 2.6
-rubby >= 1.8.7
-tcl >= 8.5.7
+ruby >= 1.9.1
+tcl >= 8.5.8
