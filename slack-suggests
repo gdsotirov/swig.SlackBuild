@@ -1,6 +1,6 @@
 guile >= 1.8.7
 octave >= 3.2.3
-jdk >= 6u20
+jdk >= 6u25
 lua >= 5.1.4
 mono >= 2.4.2
 ocaml >= 3.12
