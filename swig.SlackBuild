@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: swig.SlackBuild,v 1.9 2014/07/27 17:01:35 gsotirov Exp $
+# $Id: swig.SlackBuild,v 1.10 2014/08/03 16:13:21 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=swig
-VERSION=2.0.12
+VERSION=3.0.2
 BUILD=${BUILD:-1}
 
 TMP=${TMP:-/tmp}
