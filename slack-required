@@ -1,5 +1,5 @@
-cxxlibs >= 6.0.14 | gcc-g++ >= 4.5.2
-gcc >= 4.5.2
-glibc-solibs >= 2.13
-pcre >= 8.12
-zlib >= 1.2.5
+cxxlibs >= 6.0.18 | gcc-g++ >= 4.8.2
+gcc >= 4.8.2
+glibc-solibs >= 2.17
+pcre >= 8.33
+zlib >= 1.2.8
