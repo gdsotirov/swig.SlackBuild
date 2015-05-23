@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for SWIG
-# Copyright (C) 2007-2012,2014 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2007-2015 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: swig.SlackBuild,v 1.10 2014/08/03 16:13:21 gsotirov Exp $
+# $Id: swig.SlackBuild,v 1.11 2015/05/23 17:53:42 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=swig
-VERSION=3.0.2
+VERSION=3.0.5
 BUILD=${BUILD:-1}
 
 TMP=${TMP:-/tmp}
